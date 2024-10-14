@@ -67,4 +67,8 @@ dependencies {
     //Glide
     implementation("com.github.bumptech.glide:glide:4.12.0")
 
+    //videoModel mvvm
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.6")
+
 }
