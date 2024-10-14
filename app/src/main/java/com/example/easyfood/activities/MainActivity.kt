@@ -1,12 +1,10 @@
-package com.example.easyfood
+package com.example.easyfood.activities
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.example.easyfood.R
 import com.example.easyfood.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val bottomNavigation = binding.bottomNavBar
-        val navController = Navigation.findNavController(this,R.id.host_fragment)
+        val navController = Navigation.findNavController(this, R.id.host_fragment)
 
         NavigationUI.setupWithNavController(bottomNavigation,navController)
     }
