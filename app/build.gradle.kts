@@ -71,4 +71,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.6")
 
+    //gif
+    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.29")
+
 }
