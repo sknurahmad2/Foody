@@ -79,12 +79,6 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/loader_for_dribble"
                     android:scaleType="centerCrop"/>
-<!--                <-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    -->
-<!--                    android:background="@drawable/bg_anim"-->
-<!--                    />-->
             </androidx.cardview.widget.CardView>
 
             <TextView
