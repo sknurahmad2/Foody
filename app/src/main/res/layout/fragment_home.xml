@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_160sdp"
                 android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginEnd="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardUseCompatPadding="true"
@@ -98,8 +98,8 @@
                 android:id="@+id/rec_view_meals_popular"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_90sdp"
-                android:layout_marginStart="@dimen/_25sdp"
-                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_over_popular"/>
 
@@ -119,8 +119,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_25sdp"
-                android:layout_marginEnd="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardUseCompatPadding="true"
                 app:layout_constraintStart_toStartOf="parent"
